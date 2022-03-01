@@ -15,6 +15,7 @@ func (d deck) print() {
 	fmt.Println(d)
 }
 
+// New deck
 func newDeck() deck {
 	cards := deck{}
 	cardSuits := []string{"Spades", "Diamonds", "Hearts", "Clubs"}
